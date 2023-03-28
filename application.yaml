@@ -7,10 +7,10 @@ spec:
   project: default
 
   source:
-    repoURL: 
+    repoURL: https://github.com/kartheek2104/ArogocdProject.git
     targetRevision: HEAD
     path: dev
-  destination: https://github.com/kartheek2104/ArogocdProject.git
+  destination:
     server: https://kubernetes.default.svc
     namespace: myapp
 
